@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+//This class updates the game and is what defines the game itself, it also moves objects around the board.
 public class Board extends JPanel implements ActionListener {
     final  int WIDTH = 800;
     final int HEIGHT = 600;
